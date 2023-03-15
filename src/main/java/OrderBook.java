@@ -8,15 +8,6 @@ public class OrderBook {
     private final long time;
 
 
-   /* private static long nextId = 0;
-
-    private final long id;
-    private final double price;
-    private final int quantity;
-    private final Side side;
-    private final long time;*/
-
-
     public OrderBook(double price, int quantity, Side side) {
         this.id = nextId++;
         this.price = price;
